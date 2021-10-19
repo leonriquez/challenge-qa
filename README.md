@@ -57,6 +57,9 @@ A continuación tienes una base de datos de empleados sus titulos, salarios y de
 > 
 > database: employees
 
+![database structure](/employees-schema.png) 
+
+
   ### Se Requiere
   * Escribir la consulta SQL para listar los 100 primeros empleados(employees table) de genero fememino(gender column) ordenados por numero de empleado (emp_no column) de forma ascendente
   * Escribir la consulta SQL para listar todos salarios(salaries table) del empleado 10001 (emp_no). La consulta SQL debera relacionar las tablas employees y salaries, usando un INNER JOIN.
