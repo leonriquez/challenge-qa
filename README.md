@@ -29,6 +29,7 @@ A continuación se adjunta los mockups de los diseños y la Historia de Usuario.
 > * El campo Username es obligatorio y debe tener como minimo 5 caracteres y como maximo 25. Es un campo tipo email y debe cumplir con el formato de correos.
 > * Los campos Password y Confirm Password deben tener al menos 6 caracteres.
 > * El sistema debe mostrar un mensaje de error al ingresar campos no válidos.
+> 
 > Los criterios de aceptacion para el login son los sgtes:
 > * El campo user ID es un campo tipo email y debe cumplir con el formato de correos.
 > * El password debe tener al menos 6 caracteres.
