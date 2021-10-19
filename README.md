@@ -37,11 +37,32 @@ A continuación se adjunta los mockups de los diseños y la Historia de Usuario.
 > * La opción Keep me sign in debe mantener activa la sessión del usuario.
 > * El sistema debe mostrar un mensaje de error al ingresar campos no válidos.
 
-
   ### Se Requiere
   * Mencionar que técnica de diseño de casos de prueba usarías para generar los casos de prueba
   * Redactar los casos de pruebas que creas conveniente para los dos requerimientos
   * Listar las mejoras que puedas indentificar para ambos requermientos
+
+## Reto 2
+
+A continuación tienes una base de datos de empleados sus titulos, salarios y departamentos a los que pertenecen. Deberas conectarte a la base de datos con los accesos a continuacion para poder resolver el reto.
+
+> ### Accesos DB
+> host: employees.cakjqxz98pwt.us-west-2.rds.amazonaws.com
+> 
+> user: qa
+> 
+> password: qachallenge2021$
+> 
+> port: 3306
+> 
+> database: employees
+
+  ### Se Requiere
+  * Escribir la consulta SQL para listar los 100 primeros empleados(employees table) de genero fememino(gender column) ordenados por numero de empleado (emp_no column) de forma ascendente
+  * Escribir la consulta SQL para listar todos salarios(salaries table) del empleado 10001 (emp_no). La consulta SQL debera relacionar las tablas employees y salaries, usando un INNER JOIN.
+  * Escribir la consulta SQL para listar los 10 ultimos empleados(employees table) con sus respectivos titulos(titles table). La consulta SQL debera relacionar las tablas employees y titles, usando un INNER JOIN.
+  * Escrbir la consulta SQL para listar todos los empleados(employees table) con sus respectivos departamentos(departments table) entre las fechas desde(from_date column, dept_emp table) 1992-12-18 hasta(to_date column, dept_emp table) 1997-10-15. Debera relacionar las 3 sgtes tablas: employees, dept_emp, departments.
+  * Escribit la consulta SQL que retorne la cantidad de empleados que existen.
   
 
 
